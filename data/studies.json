@@ -1,0 +1,43 @@
+{
+  "studies": [
+    {
+      "id": "adc897cf-16cc-417f-b63f-f19c2fd2b282",
+      "name": "황정민",
+      "password": "1234",
+      "members": [
+        {
+          "boj_id": "minnie_00",
+          "problems": [
+            "1000",
+            "1001"
+          ],
+          "penalty": 0
+        },
+        {
+          "boj_id": "minnie_00",
+          "problems": [
+            "1000",
+            "1002"
+          ],
+          "penalty": 5000
+        },
+        {
+          "boj_id": "minnie_00",
+          "problems": [
+            "1000",
+            "1002"
+          ],
+          "penalty": 5000
+        },
+        {
+          "boj_id": "minnie_00",
+          "problems": [
+            "1000",
+            "1002"
+          ],
+          "penalty": 5000
+        }
+      ]
+    }
+  ]
+}

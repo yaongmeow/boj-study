@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>백준 스터디</title>
+</head>
+<body>
+    <h1>스터디 목록</h1>
+    <ul>
+        {% for study in studies %}
+            <li>
+                <a href="/study/{{ study.id }}">{{ study.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h2>스터디 생성</h2>
+    <form method="post" action="/create-study">
+        <input type="text" name="name" placeholder="스터디 이름" required>
+        <input type="password" name="password" placeholder="비밀번호" required>
+        <button type="submit">생성</button>
+    </form>
+</body>
+</html>
